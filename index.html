@@ -1,34 +1,60 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>Adapton by plum-umd</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Adapton</h1>
-      <h2 class="project-tagline">Programming Language Abstractions for Incremental Computation</h2>
-      <a href="https://github.com/plum-umd/adapton" class="btn">View on GitHub</a>
-      <a href="https://github.com/plum-umd/adapton/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/plum-umd/adapton/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <section class="main-content">
-      <p>A computation is <strong>incremental</strong> if repeating it with a <strong>changed input</strong> is <em>faster than from-scratch recomputation</em>.  Incremental computations are a ubiquitous phenomena in everyday computer systems.</p>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Adapton by plum-umd</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Adapton</h1>
+        <h2>Programming Language Abstractions for Incremental Computation</h2>
+        <a href="https://github.com/plum-umd/adapton" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <p>A computation is <strong>incremental</strong> if repeating it with a <strong>changed input</strong> is <em>faster than from-scratch recomputation</em>.  Incremental computations are a ubiquitous phenomena in everyday computer systems.</p>
 
 <p><strong>Adapton</strong> offers <strong>programming language abstractions</strong> for <strong>incremental computation</strong>.  </p>
 
 <h1>
 <a id="code" class="anchor" href="#code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code</h1>
 
+<p><strong>Latest</strong>: This is the latest implementation of Adapton:</p>
+
 <ul>
 <li><a href="https://github.com/plum-umd/adapton.ocaml">Adapton for <strong>OCaml</strong></a></li>
+</ul>
+
+<p><strong>Legacy</strong>: These were the two first implementations of Adapton:</p>
+
+<ul>
+<li>
+<a href="https://bitbucket.org/khooyp/adapton.ocaml">Adapton for <strong>OCaml</strong></a> (legacy, circa 2014)</li>
+<li>
+<a href="https://bitbucket.org/khooyp/adapton.python">Adapton for <strong>Python</strong></a> (legacy, circa 2014)</li>
+</ul>
+
+<p><strong>Coming soon</strong>: </p>
+
+<ul>
 <li><a href="https://github.com/plum-umd/adapton.rust">Adapton for <strong>Rust</strong> </a></li>
+<li><a href="https://github.com/plum-umd/adapton.racket">Adapton for <strong>Racket</strong> </a></li>
 </ul>
 
 <h1>
@@ -83,6 +109,8 @@ Edinburgh, Scotland. June 2014.  </p>
 <li>
 <a href="http://www.cs.umd.edu/%7Ejfoster">Jeff Foster</a> - University of Maryland</li>
 <li>
+<a href="http://www.cs.ubc.ca/%7Ejoshdunf/">Joshua Dunfield</a> - University of British Columbia</li>
+<li>
 <a href="http://www.cs.umd.edu/%7Edvanhorn">David Van Horn</a> - University of Maryland</li>
 </ul>
 
@@ -90,8 +118,10 @@ Edinburgh, Scotland. June 2014.  </p>
 <a id="students" class="anchor" href="#students" aria-hidden="true"><span class="octicon octicon-link"></span></a>Students</h2>
 
 <ul>
-<li>Kyle Headley</li>
-<li>Nicholas Labich</li>
+<li>
+<strong>Kyle Headley</strong> - University of Maryland</li>
+<li>
+<strong>Nicholas Labich</strong> - University of Maryland</li>
 </ul>
 
 <h2>
@@ -99,20 +129,29 @@ Edinburgh, Scotland. June 2014.  </p>
 
 <ul>
 <li>
-<a href="http://www.cs.umd.edu/%7Ekhooyp/Khoo_Yit_Phang.html">Khoo Yit Phang</a> (MathWorks)</li>
+<a href="http://www.cs.umd.edu/%7Ekhooyp/Khoo_Yit_Phang.html">Khoo Yit Phang</a> - MathWorks</li>
 <li>
-<a href="http://jamesparker.me/">James Parker</a> (University of Maryland, research programmer)</li>
+<a href="http://jamesparker.me/">James Parker</a> - University of Maryland, research programmer</li>
 </ul>
+        </section>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/plum-umd/adapton">Adapton</a> is maintained by <a href="https://github.com/plum-umd">plum-umd</a>.</span>
+        <aside id="sidebar">
+          <a href="https://github.com/plum-umd/adapton/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/plum-umd/adapton/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+          <p class="repo-owner"><a href="https://github.com/plum-umd/adapton"></a> is maintained by <a href="https://github.com/plum-umd">plum-umd</a>.</p>
 
-    </section>
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
 
   
   </body>
 </html>
-
