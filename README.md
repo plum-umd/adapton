@@ -2,7 +2,7 @@
 
 ------------------------------
 
-A computation is **incremental** if repeating it with a **changed input** is *faster than from-scratch recomputation*.  Incremental computations are a ubiquitous phenomena in everyday computer systems.
+A computation is **incremental** if repeating it with a **changed input** is *faster than from-scratch recomputation*.  Incremental computations are ubiquitous in everyday computer systems.
 
 **Adapton** offers **programming language abstractions** for **incremental computation**.  
 
@@ -24,7 +24,7 @@ Videos
 
 Incremental Computation with Adapton  
 ---------------------------------------
-**Matthew A Hammer**  
+**Matthew A. Hammer**  
 University of Colorado, Boulder. March 2015.  
 https://vimeo.com/122066659  
 
