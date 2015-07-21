@@ -517,7 +517,7 @@ aside#sidebar p.repo-owner a {
 }
 
 a.button {
-  width: 134px;
+  width: 160px;
   height: 58px;
   padding-top: 22px;
   padding-left: 68px;
@@ -527,7 +527,7 @@ a.button {
   color: #fff;
 }
 a.button2 {
-  width: 134px;
+  width: 160px;
   height: 58px;
   padding-top: 22px;
   padding-left: 68px;
@@ -548,7 +548,7 @@ header a.button {
 }
 header a.button2 {
   position: absolute;
-  top: 200;
+  top: 100;
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
