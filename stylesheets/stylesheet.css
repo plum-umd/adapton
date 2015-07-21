@@ -526,6 +526,16 @@ a.button {
   line-height: 1.2;
   color: #fff;
 }
+a.button2 {
+  width: 134px;
+  height: 58px;
+  padding-top: 22px;
+  padding-left: 68px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 23px;
+  line-height: 1.2;
+  color: #fff;
+}
 a.button small {
   display: block;
   font-size: 11px;
@@ -533,6 +543,12 @@ a.button small {
 header a.button {
   position: absolute;
   top: 0;
+  right: 0;
+  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+}
+header a.button2 {
+  position: absolute;
+  top: 200;
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
